@@ -14,8 +14,8 @@ const App = () => {
       {/* <Toggle />
        */}
 
-      {/* <BgChange />  */}
-      <LikeDislikeCount />
+      <BgChange />
+      {/* <LikeDislikeCount /> */}
     </div>
   );
 };
