@@ -5,6 +5,7 @@ import LikeDislikeCount from "./Components/UseState/LikeDislikeCount/LikeDislike
 import Toggle from "./Components/UseState/Toggle/Toggle";
 import ToogleVisibility from "./Components/UseState/Toggle/Toggle";
 import "./index.css";
+import LoginForm from "./Projects/LoginForm/LoginForm";
 
 const App = () => {
   return (
@@ -14,8 +15,10 @@ const App = () => {
       {/* <Toggle />
        */}
 
-      <BgChange />
+      {/* <BgChange /> */}
       {/* <LikeDislikeCount /> */}
+
+      <LoginForm />
     </div>
   );
 };
