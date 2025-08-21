@@ -1,0 +1,17 @@
+.reduce {
+  background-color: bisque;
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem;
+  border: 1px solid black;
+  gap: 25px;
+}
+.reduce button {
+  background-color: purple;
+  color: white;
+  height: 60px;
+  width: auto;
+  font-size: 30px;
+  font-weight: 900;
+  cursor: pointer;
+}
