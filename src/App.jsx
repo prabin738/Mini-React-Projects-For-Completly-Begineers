@@ -1,17 +1,15 @@
-import React from "react";
+import Counter from "./Components/UseState/Counter/Counter";
+import CountIncreaseDecrease from "./Components/UseState/Counter/CountIncreaseDecrease";
+import Toggle from "./Components/UseState/Toggle/Toggle";
+import ToogleVisibility from "./Components/UseState/Toggle/Toggle";
 import "./index.css";
-import Counter from "./Components/UseState/Counter";
-import ToogleVisibility from "./Components/UseState/ToogleVisibility";
-import ReduceCount from "./Components/UseState/ReduceCount";
-import CountIncreaseDecrease from "./Components/UseState/CountIncreaseDecrease";
 
 const App = () => {
   return (
     <div>
       {/* <Counter />
-      <ReduceCount /> */}
-
-      <CountIncreaseDecrease />
+      <CountIncreaseDecrease /> */}
+      <Toggle />
     </div>
   );
 };
