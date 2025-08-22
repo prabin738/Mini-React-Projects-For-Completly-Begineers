@@ -7,6 +7,7 @@ import ToogleVisibility from "./Components/UseState/Toggle/Toggle";
 import "./index.css";
 import LoginForm from "./Projects/LoginForm/LoginForm";
 import Navbar from "./Projects/Navbar/Navbar";
+import SideNavbar from "./Projects/SideNavbar/SideNavbar";
 import WeatherApp from "./Projects/WeatherApp/WeatherApp";
 
 const App = () => {
@@ -20,7 +21,8 @@ const App = () => {
       {/* <BgChange /> */}
       {/* <LikeDislikeCount /> */}
       {/* <LoginForm /> */}
-      <Navbar />
+      {/* <Navbar /> */}
+      <SideNavbar />
     </div>
   );
 };

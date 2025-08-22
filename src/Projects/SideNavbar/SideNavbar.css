@@ -1,0 +1,50 @@
+.sidebar {
+  background-color: rgb(132, 132, 214);
+  color: white;
+  width: 250px;
+  position: fixed;
+  top: 0;
+  height: 100vh;
+  left: 0;
+}
+.sidebar.close {
+  width: 80px;
+}
+
+.sidebar-header {
+  display: flex;
+  align-items: center;
+  background-color: rgb(33, 33, 65);
+  justify-content: space-between;
+  padding: 10px;
+}
+.toggle-btn {
+  cursor: pointer;
+  background: none;
+  border: none;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+}
+.toggle-btn .arrow {
+  width: 0;
+  height: 0;
+  border-style: solid;
+}
+.toggle-btn .left {
+  border-width: 8px 10px 8px 0px;
+  border-color: transparent white transparent transparent;
+}
+.toggle-btn .right {
+  border-width: 8px 0px 8px 10px;
+  border-color: transparent transparent transparent white;
+}
+.logo {
+  text-align: center;
+}
+.logo h2 {
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: rgb(243, 68, 68);
+}
