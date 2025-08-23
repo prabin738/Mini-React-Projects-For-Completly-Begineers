@@ -11,6 +11,7 @@ import Navbar from "./Projects/Navbar/Navbar";
 import SideNavbar from "./Projects/SideNavbar/SideNavbar";
 import WeatherApp from "./Projects/WeatherApp/WeatherApp";
 import ShowTitle from "./Components/UseState/ShowTitle/ShowTitle";
+import { ShowHide } from "./Dummy/ShowHide";
 
 const App = () => {
   return (
@@ -25,7 +26,9 @@ const App = () => {
       {/* <LoginForm /> */}
       {/* <Navbar /> */}
       {/* <SideNavbar /> */}
-      <ShowTitle />
+      {/* <ShowTitle /> */}
+
+      <ShowHide />
     </div>
   );
 };
