@@ -13,6 +13,7 @@ import WeatherApp from "./Projects/WeatherApp/WeatherApp";
 import ShowTitle from "./Components/UseState/ShowTitle/ShowTitle";
 import { ShowHide } from "./Dummy/ShowHide";
 import DummyOne from "./Dummy/DummyOne";
+import StopWatch from "./Projects/StopWatch/StopWatch";
 
 const App = () => {
   return (
@@ -28,7 +29,8 @@ const App = () => {
       {/* <Navbar /> */}
       {/* <SideNavbar /> */}
       {/* <ShowTitle /> */}
-      <DummyOne />
+      {/* <DummyOne /> */}
+      <StopWatch />
     </div>
   );
 };

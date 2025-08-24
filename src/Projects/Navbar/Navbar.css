@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-} */
+}
 html {
   font-size: 62.5%;
   font-family: "poppins", sans-serif;
@@ -66,8 +66,8 @@ nav ul {
 .ham-menu {
   display: none;
 }
-/* 
-use media queries to make responsive */
+
+use media queries to make responsive
 @media screen and (max-width: 998px) {
   .menu-web {
     display: none;
@@ -97,4 +97,4 @@ use media queries to make responsive */
   &li:last-child {
     margin-bottom: 1.2rem;
   }
-}
+} */
