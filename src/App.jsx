@@ -14,6 +14,7 @@ import ShowTitle from "./Components/UseState/ShowTitle/ShowTitle";
 import { ShowHide } from "./Dummy/ShowHide";
 import DummyOne from "./Dummy/DummyOne";
 import StopWatch from "./Projects/StopWatch/StopWatch";
+import DummyTwo from "./Dummy/DummyTwo";
 
 const App = () => {
   return (
@@ -25,12 +26,13 @@ const App = () => {
 
       {/* <BgChange /> */}
       {/* <LikeDislikeCount /> */}
-      {/* <LoginForm /> */}
+      <LoginForm />
       {/* <Navbar /> */}
       {/* <SideNavbar /> */}
       {/* <ShowTitle /> */}
       {/* <DummyOne /> */}
-      <StopWatch />
+      {/* <StopWatch /> */}
+      {/* <DummyTwo /> */}
     </div>
   );
 };
